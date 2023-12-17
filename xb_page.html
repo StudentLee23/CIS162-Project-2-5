@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lee's Top Game 2023</title>
+    <link rel="stylesheet" href="xb_page.css">
+    <link rel="stylesheet" href="accordion.css">
+    <script src="2_3_formsubmit.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <img src="LC_logo.png" alt="Logo">
+        <nav class="home">
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="ps_page.html">
+                <img src="ps_logo.png" alt="ps logo">
+            </a></li>
+            <li><a href="swi_page.html">
+                <img src="switch_logo.png" alt="switch logo">
+            </a></li>
+            <li><a href="xb_page.html">
+                <img src="xbox_logo.png" alt="xbox logo">
+            </a></li>
+            <li><a href="2024_page.html">
+                <img src="2024.png" alt="2024 logo">
+            </a></li>
+        </ul>
+    </nav>
+
+    <section class="right">
+        <h1><em>Xbox's </em>"MUST PLAY" Games of 2023</h1>
+
+        <ul class="accordion">
+    
+        <li><input type="radio" name="accordion" id="first" checked>
+            <label for="first"> Click on Game Title to see information about game</label>
+        </li>
+
+        <li><input type="radio" name="accordion" id="second">
+            <label for="second">Hi-Fi Rush</label>
+            <div class="content">
+                <img src="hfrush.png" alt="hifi rush" width="585px" height="285px">
+                <p><em><strong>Hi-Fi Rush</strong></em> is a nice surprise
+                from Tango Gameworks.  It has a lot of charm and a lot of heart.
+                With its awesome combat and platforming, vivid visual design, and
+                unwavering commitment to comedy, <em><strong>Hi-Fi Rush</strong></em>
+                is an undenialby wild ride.</p>
+            </div>
+        </li>
+
+        <li><input type="radio" name="accordion" id="third">
+            <label for="third">Forza Motorsport</label>
+            <div class="content">
+                <img src="fm.png" alt="forza" width="590px" height="285px">
+                <p><em><strong>Forza Motorsport</strong></em> is finally here and it
+                cement itself as one of the best-looking and most approachable racing
+                simulators to date.  It is one of the best acccessible surprises in 2023.
+                <em><strong>Forza Motorsport</strong></em> is an exhilirating racing
+                experience that seamlessly combines stunning visuals and realstic gameplay.</p>
+            </div>
+        </li>
+
+        <li><input type="radio" name="accordion" id="fourth">
+            <label for="fourth">Starfield</label>
+            <div class="content">
+                <img src="sfield.png" alt="starfield" width="590px" height="265px">
+                <p>The long-awaited spacefaring RPG from the team behind <em>The Elder Scrolls</em>
+                and <em>Fallout</em> is undoubtedly a massive game.  The world is expansive, and
+                the main story and all the side-quests are brilliantly crafted.  <em><strong>Starfield</strong></em>
+                is an almost endless adventure that leads to more discovering of new details years down
+                the line. </p>
+            </div>
+        </li>
+
+        </ul>
+    </section>
+
+    <form id="discussion" action="http://#.click" method="post">
+        <div class="formRow">
+        <fieldset id="discussionBoard">
+            <legend>Discussion Board</legend>
+
+            <div class="formRow">
+            <label for="gamePlayed">How many games have you played in 2023?</label>
+            <input name="gamePlayed" id="gamePlayed" type="text">
+            </div>
+
+            <div class="formRow">
+            <label for="agreeDisagree">Do you agree with my list of top games?</label>
+            <input name="agreeDisagree" id="agreeDisagree" type="text">
+            </div>
+
+            <div class="formRow">
+            <label for="playMyList">Have you played any of the games on my list?</label>
+            <input name="playMyList" id="playMyList" type="text">
+            </div>
+
+            <div class="formRow">
+            <label for="interestingGames">Which games on my list are most interesting to you?</label>
+            <input name="interestingGames" id="interestingGames" type="text">
+            </div>
+
+            <div class="formRow">
+            <label for="yourList">What are you top list of games for 2023?</label>
+            <input name="yourList" id="yourList" type="text">
+            </div>
+
+        </fieldset>
+        </div>
+
+        <div id="buttons">
+            <input type="submit" value="Submit Discussion"/>
+            <input type="reset" value="Cancel"/>
+        </div>
+    </form>
+
+</body>
+</html>
